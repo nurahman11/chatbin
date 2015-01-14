@@ -1,0 +1,121 @@
+div#headlogo_login{
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	width: 610px;
+	height: 65px;
+	margin: auto;
+	margin-top: 60px;
+}
+
+#login {
+	position: relative;
+	margin: 10px auto 0 auto;
+	border: 1px #B9B9B9 solid;
+	box-shadow: #B9B9B9 0px 1px 2px;
+	border-radius: 15px;
+	width: 600px;
+	height: auto;
+	background: #FFFFFF;
+}
+
+#login #login_head {
+	position: relative;
+	background: #3FBC55; /* Old Browser */
+	background: -moz-linear-gradient(top,  #3FBC55 30%, #428456 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#3FBC55), color-stop(100%,#428456)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3FBC55 30%,#428456 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3FBC55 30%,#428456 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3FBC55 30%,#428456 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3FBC55 30%,#428456 100%); /* W3C */
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+	margin: 1px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	height: 40px;
+	line-height: 38px;
+	padding-left: 20px;
+	text-shadow: #000000 0px 1px 1px;
+}
+
+#login #login_error {
+	font-size: 17px;
+	font-weight: bold;
+	color: #FF0F0F;
+	text-align: center;
+	margin: 20px;
+}
+
+#login #login_table {
+	position: relative;
+	margin: auto;
+	width: 400px;
+	height: 250px;
+	color: #555555;
+	font-size: 14px;
+}
+
+#login #login_table table tr {
+	margin-bottom: 15px;
+}
+
+input.textbox {
+	padding: 6px;
+	width: 200px;
+	background: #FFFFFF;
+	background: -moz-linear-gradient(top,  #E0E0E0 0%, #FFFFFF 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E0E0E0), color-stop(50%,#FFFFFF)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #E0E0E0 0%,#FFFFFF 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #E0E0E0 0%,#FFFFFF 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #E0E0E0 0%,#FFFFFF 50%); /* IE10+ */
+	background: linear-gradient(to bottom,  #E0E0E0 0%,#FFFFFF 50%); /* W3C */
+	border: inset 1px #CCCCCC;
+	border-radius: 5px;
+	font-family: Calibri, "Segoe UI", Verdana, Arial;
+	font-size: 14px;
+}
+
+input.button {
+	padding: 8px 50px;
+	box-shadow: #595959 0px 1px 2px;
+	
+	background: #3FBC55;
+	background: -moz-linear-gradient(top,  #3FBC55 20%, #428456 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#3FBC55), color-stop(100%,#428456)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3FBC55 20%,#428456 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3FBC55 20%,#428456 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3FBC55 20%,#428456 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3FBC55 20%, #428456 100%);
+	
+	border: none;
+	border-radius: 5px;
+	font-family: Calibri, "Segoe UI", Verdana, Arial;
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: #000000 0px 1px 0px;
+	cursor: pointer;
+}
+
+input.button:hover {
+	box-shadow: #595959 0px 1px 2px;
+	background: #428456;
+	background: -moz-linear-gradient(top,  #428456 0%, #3FBC55 80%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#437CD1), color-stop(80%,#3FBC55)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #428456 0%,#3FBC55 80%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #428456 0%,#3FBC55 80%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #428456 0%,#3FBC55 80%); /* IE10+ */
+	background: linear-gradient(to bottom,  #428456 0%, #3FBC55 80%);
+}
+
+input.button:active {
+	background: -moz-linear-gradient(top,  #428456 0%, #3FBC55 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#437CD1), color-stop(50%,#3FBC55)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #428456 0%,#3FBC55 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #428456 0%,#3FBC55 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #428456 0%,#3FBC55 50%); /* IE10+ */
+	background: linear-gradient(to bottom,  #428456 0%, #3FBC55 50%);
+	box-shadow: #595959 0px 0px 2px;
+}

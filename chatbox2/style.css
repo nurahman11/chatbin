@@ -1,0 +1,451 @@
+body {
+	font-family: Calibri, "Segoe UI", Verdana, Arial;
+	font-size: 14px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #D3D3D3;
+	text-shadow: #B6B6B6 0px 0px 2px;
+	white-space: normal;
+}
+
+a, a:link, a:visited {
+	color: #5A5EE0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #7B93EE;
+	text-decoration: underline;
+}
+
+img {
+	vertical-align: top;
+}
+
+font.symboltext {
+	font-family: 'Arial Unicode MS', 'Segoe UI Symbol', 'Cambria Math', Symbola, Quivira, STIX, Code2000;
+	font-size: 14px;
+	line-height: 12px;
+	vertical-align: 1px;
+}
+
+input.textbox {
+	margin-top: 1px;
+	padding: 6px;
+	width: 150px;
+	background: #FFFFFF;
+	background: -moz-linear-gradient(top,  #E0E0E0 0%, #FFFFFF 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E0E0E0), color-stop(50%,#FFFFFF)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #E0E0E0 0%,#FFFFFF 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #E0E0E0 0%,#FFFFFF 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #E0E0E0 0%,#FFFFFF 50%); /* IE10+ */
+	background: linear-gradient(to bottom,  #E0E0E0 0%,#FFFFFF 50%); /* W3C */
+	border: inset 1px #CCCCCC;
+	border-radius: 5px;
+	font-family: Calibri, "Segoe UI", Verdana, Arial;
+	font-size: 14px;
+}
+
+input.button, button.button {
+	padding: 5px 20px;
+	box-shadow: #595959 0px 1px 2px;
+	
+	background: #3FBC55;
+	background: -moz-linear-gradient(top,  #3FBC55 20%, #428456 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(20%,#3FBC55), color-stop(100%,#428456)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3FBC55 20%,#428456 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3FBC55 20%,#428456 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3FBC55 20%,#428456 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3FBC55 20%, #428456 100%);
+	
+	border: none;
+	border-radius: 5px;
+	font-family: Calibri, "Segoe UI", Verdana, Arial;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-shadow: #000000 0px 1px 0px;
+	cursor: pointer;
+}
+
+input.button:hover, button.button:hover {
+	box-shadow: #595959 0px 1px 2px;
+	background: #428456;
+	background: -moz-linear-gradient(top,  #428456 0%, #3FBC55 80%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#437CD1), color-stop(80%,#3FBC55)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #428456 0%,#3FBC55 80%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #428456 0%,#3FBC55 80%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #428456 0%,#3FBC55 80%); /* IE10+ */
+	background: linear-gradient(to bottom,  #428456 0%, #3FBC55 80%);
+}
+
+input.button:active, button.button:active {
+	background: -moz-linear-gradient(top,  #428456 0%, #3FBC55 50%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#437CD1), color-stop(50%,#3FBC55)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #428456 0%,#3FBC55 50%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #428456 0%,#3FBC55 50%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #428456 0%,#3FBC55 50%); /* IE10+ */
+	background: linear-gradient(to bottom,  #428456 0%, #3FBC55 50%);
+	box-shadow: #595959 0px 0px 2px;
+}
+
+
+div.clear {
+	float: none;
+	clear: both;
+}
+
+div.autohidescroll {
+	overflow: hidden !important;
+}
+
+div.autohidescroll:hover {
+	overflow: auto !important;
+}
+
+div#headlogo{
+	background-image: url(images/logo.png);
+	background-repeat: no-repeat;
+	background-position: center left;
+	width: 970px;
+	height: 65px;
+	margin: auto;
+}
+
+#framechat {
+	position: relative;
+}
+
+#framechat #chatbox-inner {
+	position: relative;
+	width: 97%;
+	padding: 5px;
+	box-shadow: #000000 0px 0px 3px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	overflow: hidden;
+	text-align: left;
+	white-space: normal;
+}
+
+#framechat #chatbox-inner #chatbox-head {
+	position: absolute;
+	left: 5px;
+	right: 5px;
+	top: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000000;
+	background-color: #E6E6E6;
+	height: 30px;
+	line-height: 30px;
+	font-family: Calibri, "Segoe UI", Verdana, Arial;
+	letter-spacing: 1px;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+}
+
+#framechat #chatbox-inner #chatbox-inner2 {
+	margin-top: 40px;
+	overflow: auto;
+	height: 300px;
+}
+
+#framechat #chatbox-inner table#chatbox-tab th {
+	font-weight: bold;
+	color: #0099CC;
+	vertical-align: top;
+	text-align: left;
+	overflow: hidden;
+}
+
+#framechat #chatbox-inner table#chatbox-tab td {
+	vertical-align: top;
+	text-align: left;
+	overflow: hidden;
+	max-width: 300px;
+	white-space: normal;
+}
+
+#framechat #chatbox-inner table#chatbox-tab th .chat_time {
+	font-size: 9px;
+	color: #666666;
+	padding: 0;
+	margin: 0;
+	padding-left: 5px;
+}
+
+#framechat .cinput {
+	font-family: Calibri, "Segoe UI", Verdana, Arial;
+	font-weight: bold;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 5px;
+	width: 97%;
+	margin-top: 5px;
+	padding-bottom: 15px;
+	box-shadow: #000000 0px 0px 3px;
+}
+
+#framechat input, #framechat textarea {
+	font-size: 12px;
+	font-family: Calibri, "Segoe UI", Verdana, Arial;
+	border: none;
+	box-shadow: #6C6C6C 0px 0px 2px;
+	background: #EBEBEB;
+	color: #000000;
+	width: 98%;
+	padding: 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	margin: 5px 0;
+}
+
+#framechat input:hover, #framechat textarea:hover, #framechat input:active, #framechat textarea:active {
+	box-shadow: #000000 0px 0px 2px;
+}
+
+#framechat button {
+	box-shadow: #000000 0px 0px 2px;
+	background: #EBEBEB;
+	color: #000000;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border: none;
+	float: right;
+	cursor: pointer;
+	padding: 3px 10px;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-weight: bold;
+}
+
+#framechat button:hover, #framechat button:active {
+	box-shadow: #000000 0px 0px 2px;
+	background: #959595;
+}
+	
+#framebanner {
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	bottom: 139px;
+	width: 122px;
+	text-align: right;
+}
+
+#floatdiv {
+	position: relative;
+	width: 970px;
+	clear: both;
+	float: none;
+	margin: auto;
+	margin-top: 5px;
+}
+
+#roomlist, #chatlist {
+	float: left;
+	position: relative;
+	border: 1px #B9B9B9 solid;
+	box-shadow: #B9B9B9 0px 1px 2px;
+	border-radius: 15px;
+	width: 750px;
+	height: 550px;
+	background: #FFFFFF;
+}
+
+#infobox {
+	float: right;
+	position: relative;
+	border: 1px #B9B9B9 solid;
+	box-shadow: #B9B9B9 0px 1px 2px;
+	border-radius: 15px;
+	width: 200px;
+	height: 150px;
+	background: #FFFFFF;
+}
+
+#userlist {
+	float: right;
+	position: relative;
+	border: 1px #B9B9B9 solid;
+	box-shadow: #B9B9B9 0px 1px 2px;
+	border-radius: 15px;
+	width: 200px;
+	height: 390px;
+	margin-top: 8px;
+	background: #FFFFFF;
+}
+
+.box_head {
+	position: relative;
+	background: #3FBC55; /* Old Browser */
+	background: -moz-linear-gradient(top,  #3FBC55 30%, #428456 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#3FBC55), color-stop(100%,#428456)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3FBC55 30%,#428456 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3FBC55 30%,#428456 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3FBC55 30%,#428456 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3FBC55 30%,#428456 100%); /* W3C */
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+	margin: 1px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 18px;
+	height: 40px;
+	line-height: 38px;
+	padding-left: 20px;
+	text-shadow: #000000 0px 1px 1px;
+}
+
+#roomlist #tablelist_head {
+	position: absolute;
+	background: #3FBC55; /* Old Browser */
+	background: -moz-linear-gradient(top,  #3FBC55 30%, #428456 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(30%,#3FBC55), color-stop(100%,#428456)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #3FBC55 30%,#428456 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #3FBC55 30%,#428456 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #3FBC55 30%,#428456 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #3FBC55 30%,#428456 100%); /* W3C */
+	color: #FFFFFF;
+	text-shadow: #000000 0px 1px 0px;
+	margin: 5px;
+	margin-top: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#roomlist #tablelist {
+	position: relative;
+	margin: 5px;
+	margin-top: 47px;
+	width: 740px;
+	height: 408px;
+	overflow: auto;
+}
+
+#roomlist #tablelist table tr:hover {
+	background-color: #95ECD3;
+	cursor: pointer;
+	color: #3D5632;
+	text-shadow: #FFFFFF 0px 1px 0px;
+}
+
+#blackbox {
+	display: none;
+	background-color: #000000;
+	opacity:0.9;
+	filter:alpha(opacity=90); /* For IE8 and earlier */
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+}
+
+#hiddenbox {
+	display: none;
+	position: fixed;
+	width: 600px;
+}
+
+#hiddenbox .popupbox {
+	display: none;
+	position: relative;
+	box-shadow: #000000 0px 1px 2px;
+	border-radius: 15px;
+	width: 600px;
+	background: #FFFFFF;
+	padding: 1px;
+	margin: auto;
+}
+
+#hiddenbox .popupbox#createroom {
+	height: 400px;
+}
+
+#hiddenbox .popupbox#changepassword {
+	height: 320px;
+}
+
+#hiddenbox .popupbox#changescreenname, #hiddenbox .popupbox#roompasswordbox {
+	height: 250px;
+}
+
+#hiddenbox .popupbox .closebutton {
+	font-family: 'Arial Unicode MS', 'Segoe UI Symbol', 'Cambria Math', Symbola, Quivira, STIX, Code2000;
+	font-size: 25px;
+	font-weight: bold;
+	position: absolute;
+	right: 15px;
+	top: 2px;
+	z-index: 999999;
+	color: #FFFFFF;
+	text-shadow: #000000 0px 1px 1px;
+	cursor: pointer;
+}
+
+#hiddenbox .popupbox .closebutton:hover {
+	color: #FFD7D7;
+	text-shadow: #000000 0px -1px 1px;
+}
+
+.box_error {
+	font-size: 17px;
+	font-weight: bold;
+	color: #FF0F0F;
+	text-align: center;
+	margin: 20px;
+}
+
+#c_text {
+	margin: 10px;
+	padding: 10px;
+	width: 705px;
+	background: #FFFFFF;
+	background: -moz-linear-gradient(top,  #E0E0E0 0%, #FFFFFF 20% ); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E0E0E0), color-stop(20%,#FFFFFF)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #E0E0E0 0%, #FFFFFF 20%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #E0E0E0 0%, #FFFFFF 20%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #E0E0E0 0%, #FFFFFF 20%); /* IE10+ */
+	background: linear-gradient(to bottom,  #E0E0E0 0%, #FFFFFF 20%); /* W3C */
+	border: inset 1px #CCCCCC;
+	border-radius: 5px;
+	font-family: Calibri, "Segoe UI", Verdana, Arial;
+	font-size: 14px;
+	resize: none;
+}
+
+#c_list {
+	width: 730px;
+	height: 390px;
+	margin: 10px;
+	color: #000000;
+	overflow: auto;
+}
+
+#c_list .list_username {
+	float: left;
+	font-size: 14px;
+	margin-right: 5px;
+}
+
+#c_list .list_message {
+	float: none;
+	font-size: 14px;
+	word-wrap: break-word;
+}
